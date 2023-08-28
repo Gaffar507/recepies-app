@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recepies App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/142e6b7a15.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js" integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body>
+  <div class="recepie-container">
+  <div class="recepie-header">
+    <h1>Recepies World <span class="icon"><i class="fa-solid fa-utensils"></i></span></h1>
+    <input type="text" id="search-item"><button class="search"><i class="fa-solid fa-magnifying-glass"></i></button></input>
+  </div>
+  <div class="favorite-container">
+    <h2>Favorite Meals</h2>
+    <div class="favorite-meals">
+    <ul class="fav-meals" id="fav-items">
+    </ul>
+    </div>
+  </div>
+  <div class="main-meal-container" id="meals">
+  </div>
+  </div> 
+  <div class="info-main-container hidden" id="popup-container">
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
